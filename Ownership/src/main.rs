@@ -1,7 +1,9 @@
+mod rule;
 // understanding of scoped variable
 const OTHER:u8 = 11;    // Global constant variable it thought accessable in program 
 fn main() {
-    let out_var = 10;
+    rule::rule(); // Calling another file
+    let out_var = 10;   // Accessable in this function
     {
         let in_var = 5;
         println!("{}",in_var);
@@ -15,3 +17,4 @@ fn main() {
 fn printval(){
     println!("{}",OTHER);
 }
+
