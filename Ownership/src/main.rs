@@ -8,7 +8,7 @@ fn main() {
         let in_var = 5;
         println!("{}",in_var);
         println!("{}",out_var);
-
+        
     }// end of in_var scope
     println!("{}",out_var);
     printval();
