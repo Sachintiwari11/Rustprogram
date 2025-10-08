@@ -1,7 +1,6 @@
 pub fn test(){
     let s1:String = get_string();
     println!("This is s1:{}",s1);
-
     let s2:String = String::from("World");
     let s3:String = send_get_string(s2);
 
