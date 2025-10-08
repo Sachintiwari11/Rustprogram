@@ -7,12 +7,10 @@ pub fn test(){
 
     println!("This is s3:{}",s3);
 }
-
 fn get_string()->String{
     let new_string = String::from("hello");
     return new_string;
 }
-
 fn send_get_string(received_string:String)->String{
     return received_string;
 }
