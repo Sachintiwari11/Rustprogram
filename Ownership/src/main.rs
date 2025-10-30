@@ -9,7 +9,10 @@ fn main() {
     //rule::rule(); // Calling another file
     //test::test(); // Calling another file
     //own::own(); // Calling another file
-    refr::refr();
+    // refr::refr();
+    //refr::mutref();
+    refr::mutresref();
+
     // let out_var = 10;   // Accessable in this function
     // {
     //     let in_var = 5;
