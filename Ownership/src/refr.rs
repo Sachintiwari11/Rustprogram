@@ -23,7 +23,7 @@ fn append_world(s:&mut String){
 */
 
 //Mutable Refrence Restriction
-pub fn mutresref(){
+pub fn mutresref(){ 
     let mut s = String :: from("Hello");
     let w1 = &mut s;
     w1.push_str(" World");
