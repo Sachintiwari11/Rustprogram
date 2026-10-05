@@ -1,4 +1,4 @@
-//mod rule;
+//mod rule;     //declare module
 //mod test;
 //mod own;
 mod refr;
