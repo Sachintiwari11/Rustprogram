@@ -1,9 +1,9 @@
-pub fn rule(){
+// pub fn rule(){
     //rulei();
     //rules();
     //ques();
     //ques2();
-}
+//}
 //Integer is fixed data type and it is stored in stack
 /*
 fn rulei(){
